@@ -104,26 +104,26 @@ const data = {
     footer: { note: "Web Portfolio By Smit Intrathep" },
     skills: [
       { group: "Technical Skills", items: [
-        { name: "Python", level: "Intermediate", percent: 70 },
-        { name: "Java", level: "Novice", percent: 35 },
+        { name: "Python", level: "Advanced", percent: 80 },
+        { name: "Java", level: "Intermediate", percent: 60 },
         { name: "C#", level: "Novice", percent: 35 },
         { name: ".Net XAML", level: "Intermediate", percent: 65 },
         { name: "HTML/CSS", level: "Advanced", percent: 90 },
-        { name: "JavaScript", level: "Novice", percent: 35 }
+        { name: "JavaScript", level: "Intermediate", percent: 65 }
       ]},
       { group: "Data Visualization", items: [
         { name: "Power BI", level: "Intermediate", percent: 65 },
         { name: "Microsoft Excel", level: "Intermediate", percent: 70 },
-        { name: "PostgreSQL", level: "Novice", percent: 30 }
+        { name: "PostgreSQL", level: "Novice", percent: 40 }
       ]},
       { group: "UX/UI & Design Tools", items: [
         { name: "Adobe Photoshop", level: "Intermediate", percent: 60 },
         { name: "Figma", level: "Advanced", percent: 85 },
         { name: "Draw.io", level: "Advanced", percent: 80 },
-        { name: "Canva", level: "Advanced", percent: 80 }
+        { name: "Canva", level: "Advanced", percent: 90 }
       ]},
       { group: "Tools", items: [
-        { name: "Visual Studio Code", level: "Advanced", percent: 85 }
+        { name: "Visual Studio Code", level: "Advanced", percent: 90 }
       ]},
       { group: "Language", items: [
         { name: "Thai", level: "Advanced", percent: 95 },
@@ -233,23 +233,23 @@ const data = {
     footer: { note: "Web Portfolio By Smit Intrathep" },
     skills: [
       { group: "Technical Skills", items: [
-        { name: "Python", level: "Intermediate", percent: 70 },
-        { name: "Java", level: "Novice", percent: 35 },
+        { name: "Python", level: "Advanced", percent: 80 },
+        { name: "Java", level: "Intermediate", percent: 60 },
         { name: "C#", level: "Novice", percent: 35 },
         { name: ".Net XAML", level: "Intermediate", percent: 65 },
         { name: "HTML/CSS", level: "Advanced", percent: 90 },
-        { name: "JavaScript", level: "Novice", percent: 35 }
+        { name: "JavaScript", level: "Intermediate", percent: 65 }
       ]},
       { group: "Data Visualization", items: [
         { name: "Power BI", level: "Intermediate", percent: 65 },
         { name: "Microsoft Excel", level: "Intermediate", percent: 70 },
-        { name: "PostgreSQL", level: "Novice", percent: 30 }
+        { name: "PostgreSQL", level: "Novice", percent: 40 }
       ]},
       { group: "UX/UI & Design Tools", items: [
         { name: "Adobe Photoshop", level: "Intermediate", percent: 60 },
         { name: "Figma", level: "Advanced", percent: 85 },
         { name: "Draw.io", level: "Advanced", percent: 80 },
-        { name: "Canva", level: "Advanced", percent: 80 }
+        { name: "Canva", level: "Advanced", percent: 90 }
       ]},
       { group: "Tools", items: [
         { name: "Visual Studio Code", level: "Advanced", percent: 85 }
