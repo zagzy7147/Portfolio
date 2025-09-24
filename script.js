@@ -33,7 +33,7 @@ const data = {
       ],
 
       education: [
-        "มหาวิทยาลัยกรุงเทพ (2022 - 2026)  – ปริญญาตรี คณะเทคโนโลยีสารสนเทศและนวัตกรรม | วิทยาการคอมพิวเตอร์ (GPA: 3.57)",
+        "มหาวิทยาลัยกรุงเทพ (2022 - ปัจจุบัน)  – ปริญญาตรี คณะเทคโนโลยีสารสนเทศและนวัตกรรม | วิทยาการคอมพิวเตอร์ (GPA: 3.57)",
         "SBAC(สะพานใหม่) (2019-2022)  – ปวช. คณะเทคโนโลยีสารสนเทศ (GPA: 3.89)"
       ]
     },
@@ -162,7 +162,7 @@ const data = {
       ],
 
       education: [
-        "Bangkok University (2022 - 2026) – B.Sc. in Information Technology & Innovation | Computer Science (GPA: 3.57)",
+        "Bangkok University (2022 - Present) – B.Sc. in Information Technology & Innovation | Computer Science (GPA: 3.57)",
         "SBAC(Saphan Mai) (2019-2022) – Vocational Certificate in Information Technology (GPA: 3.89)"
       ]
     },
