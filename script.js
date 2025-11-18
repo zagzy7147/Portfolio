@@ -7,34 +7,32 @@ const data = {
     menu: { home: "หน้าหลัก", about: "เกี่ยวกับฉัน", activities: "กิจกรรม", certs: "ใบรับรอง", contact: "ติดต่อ" },
     brand: { subtitle: "นักศึกษาวิทยาการคอมพิวเตอร์" },
     home: {
-      title: "สมิต อินทราเทพ (แซ๊ก)",
-      subtitle: "ด้วยความชื่นชอบในการเขียนโค้ดและการพัฒนาเว็บแอปพลิเคชัน ทำให้ผมได้ฝึกฝนทักษะผ่านการสร้างโปรเจกต์ต่างๆ ด้วยภาษา HTML/CSS, JavaScript, Python และ Java รวมถึงการใช้งาน XAML เพื่อสร้างแอปพลิเคชันบนเดสก์ท็อป ผมได้นำเครื่องมือ AI มาประยุกต์ใช้อย่างชำนาญ เพื่อช่วยให้งานที่ได้รับมอบหมายสำเร็จได้อย่างรวดเร็วและตรงตามเป้าหมายที่วางไว้",
+      title: "สวัสดีครับ ผมสมิต อินทราเทพ (แซ๊ก)",
+      subtitle: "นักศึกษามหาวิทยาลัยกรุงเทพ สาขาวิทยาการคอมพิวเตอร์ ชื่นชอบการเขียนโค้ดและพัฒนาเว็บแอปพลิเคชัน ประยุกต์ใช้ AI เพื่อให้งานสำเร็จเร็วและตรงเป้าหมาย",
       nameLabel: "ชื่อ:",
       nameValue: "สมิต อินทราเทพ",
       nickLabel: "ชื่อเล่น:",
-      nickValue: "แซ๊ก",
+      nickValue: "แซ๊ก (Zag)",
       birthLabel: "วันเกิด:",
       birthValue: "07/01/2547 (21 ปี)",
       genderLabel: "เพศ:",
-      genderValue: "ชาย",
+      genderValue: "ชาย"
     },
     about: {
       title: "เกี่ยวกับฉัน",
       educationTitle: "การศึกษา",
       skillsTitle: "ทักษะและความเชี่ยวชาญ",
-
       softTitle: "ทักษะทางสังคม",
       softSkills: [
         "ทำงานเป็นทีม",
         "เรียนรู้เร็ว",
         "ใช้ AI ได้อย่างชำนาญ",
         "สามารถแก้ไขปัญหาเฉพาะหน้า",
-        "มีความรับผิดชอบตรงต่อเวลา",
+        "มีความรับผิดชอบตรงต่อเวลา"
       ],
-
       education: [
-        "มหาวิทยาลัยกรุงเทพ (2022 - ปัจจุบัน)  – ปริญญาตรี คณะเทคโนโลยีสารสนเทศและนวัตกรรม | วิทยาการคอมพิวเตอร์ (GPA: 3.57)",
-        "SBAC(สะพานใหม่) (2019-2022)  – ปวช. คณะเทคโนโลยีสารสนเทศ (GPA: 3.89)"
+        "มหาวิทยาลัยกรุงเทพ (2022 - 2026) – ปริญญาตรี คณะเทคโนโลยีสารสนเทศและนวัตกรรม | วิทยาการคอมพิวเตอร์ (GPA: 3.57)",
+        "SBAC(สะพานใหม่) (2019-2022) – ปวช. คณะเทคโนโลยีสารสนเทศ (GPA: 3.89)"
       ]
     },
     portfolio: {
@@ -98,32 +96,31 @@ const data = {
     contact: {
       title: "ติดต่อ (Contact)",
       emailStudent: "Email นักศึกษา",
-      phone: "โทร",
-      address: "ที่อยู่"
+      phone: "โทร"
     },
     footer: { note: "Web Portfolio By Smit Intrathep" },
     skills: [
       { group: "Technical Skills", items: [
-        { name: "Python", level: "Advanced", percent: 80 },
-        { name: "Java", level: "Intermediate", percent: 60 },
+        { name: "Python", level: "Intermediate", percent: 70 },
+        { name: "Java", level: "Novice", percent: 35 },
         { name: "C#", level: "Novice", percent: 35 },
         { name: ".Net XAML", level: "Intermediate", percent: 65 },
         { name: "HTML/CSS", level: "Advanced", percent: 90 },
-        { name: "JavaScript", level: "Intermediate", percent: 65 }
+        { name: "JavaScript", level: "Novice", percent: 35 }
       ]},
       { group: "Data Visualization", items: [
         { name: "Power BI", level: "Intermediate", percent: 65 },
         { name: "Microsoft Excel", level: "Intermediate", percent: 70 },
-        { name: "PostgreSQL", level: "Novice", percent: 40 }
+        { name: "PostgreSQL", level: "Novice", percent: 30 }
       ]},
       { group: "UX/UI & Design Tools", items: [
         { name: "Adobe Photoshop", level: "Intermediate", percent: 60 },
         { name: "Figma", level: "Advanced", percent: 85 },
         { name: "Draw.io", level: "Advanced", percent: 80 },
-        { name: "Canva", level: "Advanced", percent: 90 }
+        { name: "Canva", level: "Advanced", percent: 80 }
       ]},
       { group: "Tools", items: [
-        { name: "Visual Studio Code", level: "Advanced", percent: 90 }
+        { name: "Visual Studio Code", level: "Advanced", percent: 85 }
       ]},
       { group: "Language", items: [
         { name: "Thai", level: "Advanced", percent: 95 },
@@ -135,8 +132,8 @@ const data = {
     menu: { home: "Home", about: "About", activities: "Activities", certs: "Certifications", contact: "Contact" },
     brand: { subtitle: "Computer Science Student" },
     home: {
-      title: "Smit Intrathep (Zag)",
-      subtitle: "Due to my passion for coding and web application development, I've honed my skills by building various projects using HTML/CSS, JavaScript, Python, and Java, as well as using XAML for creating desktop applications. I am also adept at leveraging AI tools to complete assigned tasks quickly and meet set goals.",
+      title: "Hello, I'm Smit Intrathep (Zag)",
+      subtitle: "Computer Science student at Bangkok University who loves coding and web application development. I leverage AI tools to complete tasks efficiently and achieve set goals.",
       nameLabel: "Name:",
       nameValue: "Smit Intrathep",
       nickLabel: "Nickname:",
@@ -144,14 +141,12 @@ const data = {
       birthLabel: "Birthdate:",
       birthValue: "07/01/2004 (21 years)",
       genderLabel: "Gender:",
-      genderValue: "Male",
-      
+      genderValue: "Male"
     },
     about: {
       title: "About Me",
       educationTitle: "Education",
       skillsTitle: "Skills & Expertise",
-
       softTitle: "Soft Skills",
       softSkills: [
         "Teamwork",
@@ -160,9 +155,8 @@ const data = {
         "Able to handle on-the-spot problems",
         "Responsible and punctual"
       ],
-
       education: [
-        "Bangkok University (2022 - Present) – B.Sc. in Information Technology & Innovation | Computer Science (GPA: 3.57)",
+        "Bangkok University (2022 - 2026) – B.Sc. in Information Technology & Innovation | Computer Science (GPA: 3.57)",
         "SBAC(Saphan Mai) (2019-2022) – Vocational Certificate in Information Technology (GPA: 3.89)"
       ]
     },
@@ -176,7 +170,7 @@ const data = {
           duration: "3 weeks",
           image: "./assets/ledwall.jpg",
           badges: ["Arduino ESP32", "Realtime"],
-          desc: "Develop a real-time LED Wall display system connected to a computer using Arduino ESP32 and design the interaction of hardware and software to display stable images."
+          desc: "Developed a real-time LED Wall display system connected to a computer using Arduino ESP32 and designed the interaction of hardware and software to display stable images."
         },
         {
           id: "minesweeper",
@@ -227,29 +221,28 @@ const data = {
     contact: {
       title: "Contact",
       emailStudent: "Student Email",
-      phone: "Phone",
-      address: "Address"
+      phone: "Phone"
     },
     footer: { note: "Web Portfolio By Smit Intrathep" },
     skills: [
       { group: "Technical Skills", items: [
-        { name: "Python", level: "Advanced", percent: 80 },
-        { name: "Java", level: "Intermediate", percent: 60 },
+        { name: "Python", level: "Intermediate", percent: 70 },
+        { name: "Java", level: "Novice", percent: 35 },
         { name: "C#", level: "Novice", percent: 35 },
         { name: ".Net XAML", level: "Intermediate", percent: 65 },
         { name: "HTML/CSS", level: "Advanced", percent: 90 },
-        { name: "JavaScript", level: "Intermediate", percent: 65 }
+        { name: "JavaScript", level: "Novice", percent: 35 }
       ]},
       { group: "Data Visualization", items: [
         { name: "Power BI", level: "Intermediate", percent: 65 },
         { name: "Microsoft Excel", level: "Intermediate", percent: 70 },
-        { name: "PostgreSQL", level: "Novice", percent: 40 }
+        { name: "PostgreSQL", level: "Novice", percent: 30 }
       ]},
       { group: "UX/UI & Design Tools", items: [
         { name: "Adobe Photoshop", level: "Intermediate", percent: 60 },
         { name: "Figma", level: "Advanced", percent: 85 },
         { name: "Draw.io", level: "Advanced", percent: 80 },
-        { name: "Canva", level: "Advanced", percent: 90 }
+        { name: "Canva", level: "Advanced", percent: 80 }
       ]},
       { group: "Tools", items: [
         { name: "Visual Studio Code", level: "Advanced", percent: 85 }
@@ -263,18 +256,15 @@ const data = {
 };
 
 // ====== DOM HELPERS ======
-const $$ = (sel, root=document) => root.querySelector(sel);
-const $$$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
-function $(s, r=document) { return r.querySelector(s); }
+function $(s, r = document) { return r.querySelector(s); }
+function $$(s, r = document) { return Array.from(r.querySelectorAll(s)); }
 
 // ====== RENDER FUNCTIONS ======
-
-// ====== EDUCATION RENDER (card style) ======
 function renderEducation(items) {
-  const ul = document.getElementById('eduList');
+  const ul = $('#eduList');
   ul.innerHTML = items.map(txt => `
     <li>
-      <div class="edu-icon" aria-hidden="true">
+      <div class="edu-icon">
         <svg viewBox="0 0 24 24"><path d="M12 3l10 6-10 6L2 9l10-6zm0 7.5l6.5-3.9v4.6c0 3.6-4 6.8-6.5 7.8-2.5-1-6.5-4.2-6.5-7.8V6.6L12 10.5z"/></svg>
       </div>
       <div class="edu-main">
@@ -286,38 +276,9 @@ function renderEducation(items) {
 }
 
 function renderSoftSkills(items) {
-  const ul = document.getElementById('softList');
+  const ul = $('#softList');
   if (!ul) return;
   ul.innerHTML = items.map(txt => `<li>${txt}</li>`).join('');
-}
-
-function setLang(lang) {
-  document.documentElement.lang = lang === "th" ? "th" : "en";
-  const dict = data[lang];
-
-  $$$('[data-i18n]').forEach(el => {
-    const key = el.getAttribute('data-i18n');
-    const parts = key.split('.');
-    let val = dict;
-    for (const p of parts) val = val?.[p];
-    if (typeof val === 'string') el.textContent = val;
-  });
-
-  // Brand subtitle
-  $$('.brand .muted').textContent = dict.brand.subtitle;
-
-    // Education list
-  renderEducation(dict.about.education || []);
-
-  // ADD: Soft Skills
-  renderSoftSkills(dict.about.softSkills || []);
-
-  // Skills
-  renderSkills(dict.skills);
-
-  // Projects & Certs
-  renderCards('#projects', dict.portfolio.items, 'project');
-  renderCards('#certList', dict.certs.items, 'cert');
 }
 
 function renderSkills(groups) {
@@ -361,18 +322,37 @@ function renderCards(containerSel, items, type) {
     card.innerHTML = `
       <img src="${it.image || PLACEHOLDER}" alt="${it.title}"/>
       <div style="padding-top:10px;">
-        <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+        <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;">
           <h3 style="margin:0;">${it.title}</h3>
-          <span class="badge">${it.duration || ''}</span>
+          ${it.duration ? `<span class="badge">${it.duration}</span>` : ''}
         </div>
         <p class="muted" style="margin-top:6px;">${it.role || it.desc || ''}</p>
         <div style="margin-top:8px; display:flex; flex-wrap:wrap; gap:6px;">
-          ${(it.badges||[]).map(b => `<span class='badge'>${b}</span>`).join('')}
+          ${(it.badges || []).map(b => `<span class='badge'>${b}</span>`).join('')}
         </div>
       </div>
     `;
     wrap.appendChild(card);
   });
+}
+
+function setLang(lang) {
+  document.documentElement.lang = lang === "th" ? "th" : "en";
+  const dict = data[lang];
+
+  $$('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    const parts = key.split('.');
+    let val = dict;
+    for (const p of parts) val = val?.[p];
+    if (typeof val === 'string') el.textContent = val;
+  });
+
+  renderEducation(dict.about.education || []);
+  renderSoftSkills(dict.about.softSkills || []);
+  renderSkills(dict.skills);
+  renderCards('#projects', dict.portfolio.items, 'project');
+  renderCards('#certList', dict.certs.items, 'cert');
 }
 
 // ====== MODAL ======
@@ -391,12 +371,16 @@ function openModal(payload) {
   (payload.badges || []).forEach(b => modalMeta.innerHTML += `<span class="badge">${b}</span>`);
   modalDesc.textContent = payload.desc || '';
   backdrop.classList.add('show');
-  backdrop.setAttribute('aria-hidden','false');
+  backdrop.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
 }
+
 function closeModal() {
   backdrop.classList.remove('show');
-  backdrop.setAttribute('aria-hidden','true');
+  backdrop.setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
 }
+
 $('#modalClose').addEventListener('click', closeModal);
 backdrop.addEventListener('click', e => { if (e.target === backdrop) closeModal(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
@@ -410,7 +394,15 @@ document.addEventListener('click', (e) => {
   let src;
   if (type === 'project') src = data[lang].portfolio.items.find(x => x.id === key);
   else if (type === 'cert') src = data[lang].certs.items.find(x => x.id === key);
-  else if (type === 'activity' && key === 'bu-open-house') src = { title: data[lang].activities.bu.title, desc: data[lang].activities.bu.desc, image: "./assets/insurebot.jpg", role: "Activity", duration: "2025" };
+  else if (type === 'activity' && key === 'bu-open-house') {
+    src = {
+      title: data[lang].activities.bu.title,
+      desc: data[lang].activities.bu.desc,
+      image: "./assets/insurebot.jpg",
+      role: "Activity",
+      duration: "2025"
+    };
+  }
   if (src) openModal(src);
 });
 
@@ -419,21 +411,16 @@ function setActiveBtn(lang) {
   $('#thBtn').classList.toggle('active', lang === 'th');
   $('#enBtn').classList.toggle('active', lang === 'en');
 }
+
 $('#thBtn').addEventListener('click', () => { setActiveBtn('th'); setLang('th'); });
 $('#enBtn').addEventListener('click', () => { setActiveBtn('en'); setLang('en'); });
 
-// ====== INIT ======
-setLang('th');
-
-
-// ====== SCROLL SPY (click + scroll, header-aware) ======
-const headerEl = document.querySelector('header');
+// ====== SCROLL SPY ======
+const headerEl = $('header');
 const NAV_OFFSET = (headerEl ? headerEl.offsetHeight : 64) + 8;
+const navLinks = $$('.menu a');
+const sections = $$('main section[id]');
 
-const navLinks = Array.from(document.querySelectorAll('.menu a'));
-const sections = Array.from(document.querySelectorAll('main section[id]'));
-
-// อัปเดต active ตามการเลื่อน
 function setActiveNavByScroll() {
   const y = window.scrollY + NAV_OFFSET + window.innerHeight * 0.12;
   let currentId = sections[0]?.id;
@@ -446,36 +433,30 @@ function setActiveNavByScroll() {
 }
 
 function smoothScrollToHash(href) {
-  const target = document.querySelector(href);
+  const target = $(href);
   if (!target) return;
 
-  const headerEl = document.querySelector('header');
-  const headerH = (headerEl ? headerEl.offsetHeight : 64) + 8; // ชดเชย header
-
-  // ไป #home ให้ขึ้นสุดจริง ๆ
-  const topY = target.id === 'home'
-    ? 0
-    : target.getBoundingClientRect().top + window.pageYOffset - headerH;
+  const headerH = (headerEl ? headerEl.offsetHeight : 64) + 8;
+  const topY = target.id === 'home' ? 0 : target.getBoundingClientRect().top + window.pageYOffset - headerH;
 
   window.scrollTo({ top: topY, behavior: 'smooth' });
 }
 
-// คลิกเมนู → active ทันที (+ โค้ดพิเศษให้หน้าหลักขึ้นสุด)
 navLinks.forEach(link => {
   link.addEventListener('click', (e) => {
     const href = link.getAttribute('href') || '';
     if (href && href.startsWith('#')) {
-      e.preventDefault();           // กันการวาร์ปไป anchor ทันที
-      smoothScrollToHash(href);     // ใช้เลื่อนแบบ smooth ที่คุม offset เอง
+      e.preventDefault();
+      smoothScrollToHash(href);
 
-      // อัปเดตสถานะเมนู+ปิดเมนูมือถือ
       navLinks.forEach(a => a.classList.remove('active'));
       link.classList.add('active');
-      const ham = document.getElementById('hamburger');
-      const topMenu = document.getElementById('topMenu');
+
+      const ham = $('#hamburger');
+      const topMenu = $('#topMenu');
       if (ham && topMenu) {
         ham.classList.remove('open');
-        ham.setAttribute('aria-expanded','false');
+        ham.setAttribute('aria-expanded', 'false');
         topMenu.classList.remove('show');
       }
     }
@@ -485,27 +466,16 @@ navLinks.forEach(link => {
 window.addEventListener('scroll', () => requestAnimationFrame(setActiveNavByScroll), { passive: true });
 window.addEventListener('load', setActiveNavByScroll);
 
-// ถ้ามีสลับภาษา ให้คำนวณใหม่หลังสลับ
-if (typeof setLang === 'function') {
-  const _setLang = setLang;
-  setLang = function(lang) {
-    _setLang(lang);
-    setTimeout(setActiveNavByScroll, 50);
-  };
-}
-
 // ====== HAMBURGER MENU ======
-const ham = document.getElementById('hamburger');
-const topMenu = document.getElementById('topMenu');
+const ham = $('#hamburger');
+const topMenu = $('#topMenu');
 if (ham && topMenu) {
   ham.addEventListener('click', () => {
     const open = ham.classList.toggle('open');
     ham.setAttribute('aria-expanded', open ? 'true' : 'false');
     topMenu.classList.toggle('show', open);
   });
-  // Close menu when clicking a link (mobile UX)
-  Array.from(topMenu.querySelectorAll('a')).forEach(a => a.addEventListener('click', () => {
-    ham.classList.remove('open'); ham.setAttribute('aria-expanded', 'false'); topMenu.classList.remove('show');
-  }));
 }
 
+// ====== INIT ======
+setLang('th');
