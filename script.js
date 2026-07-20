@@ -6,7 +6,7 @@ const data = {
   th: {
     a11y: { skip: "ข้ามไปยังเนื้อหา" },
     menu: { home: "หน้าหลัก", about: "เกี่ยวกับฉัน", internship: "ฝึกงาน", activities: "กิจกรรม", certs: "ใบรับรอง", contact: "ติดต่อ" },
-    brand: { subtitle: "นักศึกษาวิทยาการคอมพิวเตอร์" },
+    brand: { subtitle: "วิทยาการคอมพิวเตอร์" },
     home: {
       eyebrow: "",
       title: "สวัสดีครับ ผมสมิต อินทราเทพ (แซ๊ก)",
@@ -206,7 +206,7 @@ const data = {
   en: {
     a11y: { skip: "Skip to content" },
     menu: { home: "Home", about: "About", internship: "Internship", activities: "Activities", certs: "Certifications", contact: "Contact" },
-    brand: { subtitle: "Computer Science Student" },
+    brand: { subtitle: "Computer Science" },
     home: {
       eyebrow: "",
       title: "Hello, I'm Smit Intrathep (Zag)",
