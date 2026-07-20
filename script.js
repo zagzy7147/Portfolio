@@ -12,7 +12,7 @@ const data = {
       title: "สวัสดีครับ ผมสมิต อินทราเทพ (แซ๊ก)",
       subtitle: "บัณฑิตสาขาวิทยาการคอมพิวเตอร์ผู้มีความหลงใหลในการเขียนโค้ดและพัฒนาแอปพลิเคชัน (HTML/CSS, JavaScript, Python, Java, XAML) ผสานกับประสบการณ์ฝึกงานจริงด้านการพัฒนาระบบองค์กร (Microsoft Power Platform, SharePoint) และการสนับสนุนระบบ ERP โดดเด่นด้วยทักษะการทำงานที่ครอบคลุม ทั้งการทดสอบระบบแบบ Full-loop การจัดทำคู่มือการใช้งาน (Project Documentation) และการจัดการปัญหาของผู้ใช้งานผ่านระบบทิกเก็ต นอกจากนี้ยังสามารถประยุกต์ใช้เครื่องมือ AI อย่างชำนาญเพื่อเพิ่มประสิทธิภาพการทำงานให้สำเร็จตามเป้าหมายอย่างรวดเร็ว เป็นผู้ที่พร้อมเรียนรู้เทคโนโลยีใหม่ ปรับตัวได้ดี และมุ่งมั่นทำงานร่วมกับทีมเพื่อสนับสนุนให้โครงการดำเนินไปอย่างราบรื่นและมีประสิทธิภาพ",
       ctaWork: "ดูผลงาน",
-      ctaContact: "ติดต่อผม",
+      ctaContact: "ติดต่อ",
       nameLabel: "ชื่อ:",
       nameValue: "สมิต อินทราเทพ",
       nickLabel: "ชื่อเล่น:",
@@ -212,7 +212,7 @@ const data = {
       title: "Hello, I'm Smit Intrathep (Zag)",
       subtitle: "Computer Science graduate with a strong passion for coding (HTML/CSS, JavaScript, Python, Java) and application development, combined with hands-on internship experience in ERP support and Microsoft Power Platform. Proficient in conducting full-loop system testing, preparing project documentation, and handling user issues via ticketing systems. Adept at leveraging AI tools to optimize workflows and achieve project goals efficiently. A fast learner who adapts well to new technologies and works effectively with cross-functional teams to ensure smooth project execution.",
       ctaWork: "View Work",
-      ctaContact: "Contact Me",
+      ctaContact: "Contact",
       nameLabel: "Name:",
       nameValue: "Smit Intrathep",
       nickLabel: "Nickname:",
@@ -223,7 +223,7 @@ const data = {
       genderValue: "Male"
     },
     about: {
-      eyebrow: "// 01",
+      eyebrow: "",
       title: "About Me",
       educationTitle: "Education",
       skillsTitle: "Skills & Expertise",
@@ -275,7 +275,7 @@ const data = {
       ]
     },
     portfolio: {
-      eyebrow: "// 03",
+      eyebrow: "",
       note: "Click a card to view details in a popup",
       items: [
         {
@@ -335,7 +335,7 @@ const data = {
       ]
     },
     activities: {
-      eyebrow: "// 04",
+      eyebrow: "",
       title: "Activities & Contributions",
       bu: {
         title: "BU Open House 2025 — Showcase",
@@ -343,7 +343,7 @@ const data = {
       }
     },
     certs: {
-      eyebrow: "// 05",
+      eyebrow: "",
       title: "Certifications",
       items: [
         { id: "tdga-Ahost", title: "Internship Completion Certificate", image: "./assets/Ahost.jpg", desc: "Application Developer Internship at A-Host Co., Ltd." },
@@ -355,7 +355,7 @@ const data = {
       ]
     },
     contact: {
-      eyebrow: "// 06",
+      eyebrow: "",
       title: "Contact",
       emailStudent: "Student Email",
       phone: "Phone"
